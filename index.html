@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Mindset | Learn How to Think Like a Programmer</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Code Mindset is an educational platform focused on programming thinking, software foundations, and developer growth. Learn logical thinking over syntax.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Main Style -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-theme">
+    <div id="glow-cursor"></div>
+    <div class="bg-noise"></div>
+    
+    <!-- Navigation -->
+    <nav id="main-nav" class="glass">
+        <div class="container nav-content">
+            <div class="logo">
+                <span class="logo-accent">&lt;</span>Code Mindset<span class="logo-accent">/&gt;</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#roadmap">Roadmap</a></li>
+                <li><a href="#books">Resources</a></li>
+                <li><a href="#vision" class="btn btn-secondary">Get Started</a></li>
+            </ul>
+            <div class="mobile-menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section hero-bg-dots">
+            <div class="container hero-content">
+                <div class="hero-text" data-aos-fade-up>
+                    <h2 class="sub-heading">Educational Platform</h2>
+                    <h1 class="main-title">Think Like a <span class="text-gradient">Programmer</span></h1>
+                    <p class="hero-description">
+                        Code Mindset is not about memorizing syntax. It's about building logical thinking, understanding systems, and mastering the foundations that make a developer truly professional.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#roadmap" class="btn btn-primary">Explore the Roadmap</a>
+                        <a href="#about" class="btn btn-outline">Learn the Philosophy</a>
+                    </div>
+                </div>
+                <div class="hero-visual" data-aos-fade-left>
+                    <div class="visual-card glass-premium">
+                        <pre class="code-snippet"><code><span class="code-comment">// Building the developer mindset</span>
+<span class="code-keyword">function</span> <span class="code-func">develop</span>(mindset) {
+  <span class="code-keyword">if</span> (mindset.isLogical) {
+    <span class="code-keyword">return</span> <span class="code-string">'Success'</span>;
+  }
+  <span class="code-keyword">return</span> mindset.<span class="code-func">improve</span>();
+}</code></pre>
+                        <div class="visual-glow purple"></div>
+                        <div class="visual-glow blue"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="section-header center" data-aos-fade-up>
+                    <h2 class="sub-heading">About Code Mindset</h2>
+                    <h3 class="section-title">More Than Just <span class="text-gradient">Code</span></h3>
+                    <p class="section-description">
+                        Code Mindset is an educational platform dedicated to building the next generation of software engineers through a mindset-first approach. We believe that true mastery comes from understanding foundations, not just memorizing syntax.
+                    </p>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-card glass-premium" data-aos-fade-right>
+                        <div class="card-icon blue"><i class="icon-brain"></i></div>
+                        <h4>Programming Thinking</h4>
+                        <p>Learn to break down complex problems into logical, manageable components before writing a single line of code.</p>
+                    </div>
+                    <div class="about-card glass-premium" data-aos-fade-up>
+                        <div class="card-icon purple"><i class="icon-layers"></i></div>
+                        <h4>Software Foundations</h4>
+                        <p>Master the core principles of computer science, OOP, and systems design that apply to every programming language.</p>
+                    </div>
+                    <div class="about-card glass-premium" data-aos-fade-left>
+                        <div class="card-icon cyan"><i class="icon-growth"></i></div>
+                        <h4>Developer Mindset</h4>
+                        <p>Adopt the habits, patterns, and professional practices used by elite engineers in top-tier tech companies.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Philosophy Section -->
+        <section id="philosophy" class="philosophy-section glass-glow-bg">
+            <div class="container phil-container">
+                <div class="phil-visual" data-aos-fade-right>
+                    <div class="aura-circle primary"></div>
+                    <div class="aura-circle secondary"></div>
+                    <div class="phil-image-placeholder">
+                        <span class="logo-accent">{</span> LOGIC <span class="logo-accent">}</span>
+                    </div>
+                </div>
+                <div class="phil-content" data-aos-fade-left>
+                    <h2 class="sub-heading">Our Philosophy</h2>
+                    <h3 class="section-title">Understanding Over <span class="text-gradient">Memorization</span></h3>
+                    <ul class="phil-list">
+                        <li>
+                            <span class="list-bullet">01</span>
+                            <div>
+                                <h5>Logical Problem Solving</h5>
+                                <p>We focus on the "Why" and "How," helping you build the logical framework needed to tackle any engineering challenge.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="list-bullet">02</span>
+                            <div>
+                                <h5>Systems Thinking</h5>
+                                <p>Instead of isolated scripts, learn to see the entire system and how components interact in a professional architecture.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="list-bullet">03</span>
+                            <div>
+                                <h5>Clean Engineering Habits</h5>
+                                <p>From day one, we instill clean code practices, testing mentalities, and documentation habits that define a senior developer.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Roadmap Section -->
+        <section id="roadmap" class="roadmap-section">
+            <div class="container">
+                <div class="section-header center" data-aos-fade-up>
+                    <h2 class="sub-heading">The Journey</h2>
+                    <h3 class="section-title">A Structured <span class="text-gradient">Path to Mastery</span></h3>
+                    <p class="section-description">
+                        From basic logic to advanced software engineering. Our 14-week roadmap is designed to transform the way you think and build.
+                    </p>
+                </div>
+
+                <div class="roadmap-container">
+                    <div class="roadmap-line"></div>
+                    
+                    <!-- Week 1-2 -->
+                    <div class="roadmap-item item-blue" data-aos-fade-right>
+                        <div class="roadmap-dot"></div>
+                        <div class="roadmap-content glass-premium">
+                            <span>Weeks 1–2</span>
+                            <h4>Core Programming Mindset</h4>
+                            <ul>
+                                <li>Thinking Like a Programmer</li>
+                                <li>Clean Code Practices</li>
+                                <li>Logic Flow & Problem Decomposition</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Week 3-5 -->
+                    <div class="roadmap-item item-purple" data-aos-fade-left>
+                        <div class="roadmap-dot"></div>
+                        <div class="roadmap-content glass-premium">
+                            <span>Weeks 3–5</span>
+                            <h4>OOP & Design Patterns</h4>
+                            <ul>
+                                <li>Object-Oriented Programming Basics</li>
+                                <li>Creational & Structural Patterns</li>
+                                <li>Behavioral Design Patterns</li>
+                                <li>Clean Architecture Introduction</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Week 6-8 -->
+                    <div class="roadmap-item item-cyan" data-aos-fade-right>
+                        <div class="roadmap-dot"></div>
+                        <div class="roadmap-content glass-premium">
+                            <span>Weeks 6–8</span>
+                            <h4>Data Structures & Algorithms</h4>
+                            <ul>
+                                <li>Core Data Structures (Lists, Stacks, Queues)</li>
+                                <li>Advanced Structures (Trees, Graphs, Maps)</li>
+                                <li>Algorithm Foundations & Complexity</li>
+                                <li>Problem Solving Strategies</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Week 9-10 -->
+                    <div class="roadmap-item item-blue" data-aos-fade-left>
+                        <div class="roadmap-dot"></div>
+                        <div class="roadmap-content glass-premium">
+                            <span>Weeks 9–10</span>
+                            <h4>Systems Thinking</h4>
+                            <ul>
+                                <li>Systems Analysis & Design</li>
+                                <li>Distributed Systems Concepts</li>
+                                <li>Scalability & Performance</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Week 11-14 -->
+                    <div class="roadmap-item item-purple" data-aos-fade-right>
+                        <div class="roadmap-dot"></div>
+                        <div class="roadmap-content glass-premium">
+                            <span>Weeks 11–14</span>
+                            <h4>Engineering Practices</h4>
+                            <ul>
+                                <li>Professional GitHub Workflow</li>
+                                <li>LinkedIn & Personal Branding</li>
+                                <li>CV & Communication for Developers</li>
+                                <li>Final Capstone Engineering Project</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Advanced -->
+                    <div class="roadmap-item item-cyan" data-aos-fade-left>
+                        <div class="roadmap-dot"></div>
+                        <div class="roadmap-content glass-premium">
+                            <span>Advanced Path</span>
+                            <h4>The Master Developer</h4>
+                            <ul>
+                                <li>Refactoring & Legacy Code Handling</li>
+                                <li>Advanced Systems Architecture</li>
+                                <li>Engineering Leadership & Soft Skills</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Books & Resources Section -->
+        <section id="books" class="books-section">
+            <div class="container">
+                <div class="section-header center" data-aos-fade-up>
+                    <h2 class="sub-heading">The Library</h2>
+                    <h3 class="section-title">Recommended Books for Building a <span class="text-gradient">Programmer Mindset</span></h3>
+                    <p class="section-description">
+                        A curated collection of industry-standard literature that defines the software engineering landscape. These are the foundations of modern software architecture and logic.
+                    </p>
+                </div>
+
+                <div class="books-grid">
+                    <!-- 1. Clean Code -->
+                    <div class="book-card glass-premium" data-aos-fade-up>
+                        <div class="book-cover-wrap">
+                            <img src="books photos/Clean Code.jpeg" alt="Clean Code" class="book-cover">
+                            <div class="book-overlay"></div>
+                            <div class="book-badge">Clean Code</div>
+                        </div>
+                        <div class="book-info">
+                            <span class="book-category">Clean Code</span>
+                            <h4>Clean Code</h4>
+                            <p>Writing readable, maintainable, and professional code.</p>
+                        </div>
+                    </div>
+
+                    <!-- 2. Clean Architecture -->
+                    <div class="book-card glass-premium" data-aos-fade-up>
+                        <div class="book-cover-wrap">
+                            <img src="books photos/Clean Architecture.png" alt="Clean Architecture" class="book-cover">
+                            <div class="book-overlay"></div>
+                            <div class="book-badge">Architecture</div>
+                        </div>
+                        <div class="book-info">
+                            <span class="book-category">Architecture</span>
+                            <h4>Clean Architecture</h4>
+                            <p>Designing scalable and maintainable software systems.</p>
+                        </div>
+                    </div>
+
+                    <!-- 3. Algorithms Notes -->
+                    <div class="book-card glass-premium" data-aos-fade-up>
+                        <div class="book-cover-wrap">
+                            <img src="books photos/Algorithms.jpeg" alt="Algorithms Notes" class="book-cover">
+                            <div class="book-overlay"></div>
+                            <div class="book-badge">Algorithms</div>
+                        </div>
+                        <div class="book-info">
+                            <span class="book-category">Algorithms</span>
+                            <h4>Algorithms Notes</h4>
+                            <p>Practical understanding of algorithms and problem solving.</p>
+                        </div>
+                    </div>
+
+                    <!-- 4. Grokking Data Structures -->
+                    <div class="book-card glass-premium" data-aos-fade-up>
+                        <div class="book-cover-wrap">
+                            <img src="books photos/data strcture.jpeg" alt="Grokking Data Structures" class="book-cover">
+                            <div class="book-overlay"></div>
+                            <div class="book-badge">Data Structures</div>
+                        </div>
+                        <div class="book-info">
+                            <span class="book-category">Data Structures</span>
+                            <h4>Grokking Data Structures</h4>
+                            <p>Visual and intuitive understanding of data structures.</p>
+                        </div>
+                    </div>
+
+                    <!-- 5. Design Patterns -->
+                    <div class="book-card glass-premium" data-aos-fade-up>
+                        <div class="book-cover-wrap">
+                            <img src="books photos/Design Patterns.jpeg" alt="Design Patterns" class="book-cover">
+                            <div class="book-overlay"></div>
+                            <div class="book-badge">Architecture</div>
+                        </div>
+                        <div class="book-info">
+                            <span class="book-category">Architecture</span>
+                            <h4>Design Patterns</h4>
+                            <p>Reusable solutions for common software design problems.</p>
+                        </div>
+                    </div>
+
+                    <!-- 6. Pro Git -->
+                    <div class="book-card glass-premium" data-aos-fade-up>
+                        <div class="book-cover-wrap">
+                            <img src="books photos/Git&GitHub.jpeg" alt="Pro Git" class="book-cover">
+                            <div class="book-overlay"></div>
+                            <div class="book-badge">Engineering</div>
+                        </div>
+                        <div class="book-info">
+                            <span class="book-category">Engineering</span>
+                            <h4>Pro Git</h4>
+                            <p>Master version control and collaboration with Git.</p>
+                        </div>
+                    </div>
+
+                    <!-- 7. Python Crash Course -->
+                    <div class="book-card glass-premium" data-aos-fade-up>
+                        <div class="book-cover-wrap">
+                            <img src="books photos/python crash course.jpeg" alt="Python Crash Course" class="book-cover">
+                            <div class="book-overlay"></div>
+                            <div class="book-badge">Programming Basics</div>
+                        </div>
+                        <div class="book-info">
+                            <span class="book-category">Programming Basics</span>
+                            <h4>Python Crash Course</h4>
+                            <p>Hands-on introduction to programming fundamentals.</p>
+                        </div>
+                    </div>
+
+                    <!-- 8. Systems Analysis & Design -->
+                    <div class="book-card glass-premium" data-aos-fade-up>
+                        <div class="book-cover-wrap">
+                            <img src="books photos/Screenshot_22-3-2026_53639_.jpeg" alt="Systems Analysis & Design" class="book-cover">
+                            <div class="book-overlay"></div>
+                            <div class="book-badge">Systems Thinking</div>
+                        </div>
+                        <div class="book-info">
+                            <span class="book-category">Systems Thinking</span>
+                            <h4>Systems Analysis & Design</h4>
+                            <p>Understanding system design and real-world architecture.</p>
+                        </div>
+                    </div>
+
+                    <!-- 9. Object-Oriented Programming in C++ -->
+                    <div class="book-card glass-premium" data-aos-fade-up>
+                        <div class="book-cover-wrap">
+                            <img src="books photos/Screenshot_22-3-2026_53713_.jpeg" alt="Object-Oriented Programming in C++" class="book-cover">
+                            <div class="book-overlay"></div>
+                            <div class="book-badge">OOP</div>
+                        </div>
+                        <div class="book-info">
+                            <span class="book-category">OOP</span>
+                            <h4>Object-Oriented Programming in C++</h4>
+                            <p>Learning object-oriented programming concepts deeply.</p>
+                        </div>
+                    </div>
+
+                    <!-- 10. The Pragmatic Programmer -->
+                    <div class="book-card glass-premium" data-aos-fade-up>
+                        <div class="book-cover-wrap">
+                            <img src="books photos/Screenshot_22-3-2026_53819_.jpeg" alt="The Pragmatic Programmer" class="book-cover">
+                            <div class="book-overlay"></div>
+                            <div class="book-badge">Engineering</div>
+                        </div>
+                        <div class="book-info">
+                            <span class="book-category">Engineering</span>
+                            <h4>The Pragmatic Programmer</h4>
+                            <p>Practical mindset and habits of professional developers.</p>
+                        </div>
+                    </div>
+
+                    <!-- 11. Think Like a Programmer -->
+                    <div class="book-card glass-premium" data-aos-fade-up>
+                        <div class="book-cover-wrap">
+                            <img src="books photos/thinking like a programmer.jpeg" alt="Think Like a Programmer" class="book-cover">
+                            <div class="book-overlay"></div>
+                            <div class="book-badge">Problem Solving</div>
+                        </div>
+                        <div class="book-info">
+                            <span class="book-category">Problem Solving</span>
+                            <h4>Think Like a Programmer</h4>
+                            <p>Improve logical thinking and problem-solving skills.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills & Outcomes Section -->
+        <section id="skills" class="skills-section glass-glow-bg">
+            <div class="container">
+                <div class="section-header center" data-aos-fade-up>
+                    <h2 class="sub-heading">Outcomes</h2>
+                    <h3 class="section-title">What You <span class="text-gradient">Gain</span></h3>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-item glass-premium" data-aos-fade-up>
+                        <div class="skill-value">95%</div>
+                        <div class="skill-label">Logic Mastery</div>
+                    </div>
+                    <div class="skill-item glass-premium" data-aos-fade-up>
+                        <div class="skill-value">Expert</div>
+                        <div class="skill-label">System Thinking</div>
+                    </div>
+                    <div class="skill-item glass-premium" data-aos-fade-up>
+                        <div class="skill-value">Clean</div>
+                        <div class="skill-label">Coding Habits</div>
+                    </div>
+                    <div class="skill-item glass-premium" data-aos-fade-up>
+                        <div class="skill-value">Senior</div>
+                        <div class="skill-label">Engineering Vibe</div>
+                    </div>
+                </div>
+
+                <div class="outcomes-list">
+                    <div class="outcome-card glass" data-aos-fade-right>
+                        <h5>Problem Solving Mindset</h5>
+                        <p>Analyze and solve complex architectural problems with confidence.</p>
+                    </div>
+                    <div class="outcome-card glass" data-aos-fade-left>
+                        <h5>Software Foundations</h5>
+                        <p>A deep understanding of how software actually works under the hood.</p>
+                    </div>
+                    <div class="outcome-card glass" data-aos-fade-right>
+                        <h5>Architecture Awareness</h5>
+                        <p>Design scalable, maintainable systems that last for years.</p>
+                    </div>
+                    <div class="outcome-card glass" data-aos-fade-left>
+                        <h5>Professional Practices</h5>
+                        <p>Master version control, CI/CD, and professional communication.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio / Brand Presentation Section -->
+        <section id="portfolio" class="portfolio-section">
+            <div class="container">
+                <div class="section-header center" data-aos-fade-up>
+                    <h2 class="sub-heading">The Brand</h2>
+                    <h3 class="section-title">A Professional <span class="text-gradient">Ecosystem</span></h3>
+                    <p class="section-description">
+                        Code Mindset is built to be more than a course. It's a scalable platform for developer growth and community.
+                    </div>
+                </div>
+
+                <div class="brand-grid">
+                    <div class="brand-card glass-premium" data-aos-fade-up>
+                        <i class="brand-icon">🎓</i>
+                        <h4>Educational Authority</h4>
+                        <p>Established as a serious professional brand in the programming education space.</p>
+                    </div>
+                    <div class="brand-card glass-premium" data-aos-fade-up>
+                        <i class="brand-icon">🗺️</i>
+                        <h4>Structured Growth</h4>
+                        <p>A clear, battle-tested roadmap that removes the guesswork from learning.</p>
+                    </div>
+                    <div class="brand-card glass-premium" data-aos-fade-up>
+                        <i class="brand-icon">🚀</i>
+                        <h4>Future Scalability</h4>
+                        <p>Designed to expand into full courses, specialized tracks, and local communities.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Proof / Future Vision Section -->
+        <section id="vision" class="vision-section hero-bg-dots">
+            <div class="container center" data-aos-fade-up>
+                <h2 class="sub-heading">The Future</h2>
+                <h3 class="section-title">Your <span class="text-gradient">Transformation</span> Starts Here</h3>
+                <p class="section-description large">
+                    We aren't just teaching you how to code. We are teaching you how to think, how to engineer, and how to build the future. Join the mindset revolution.
+                </p>
+                <div class="vision-cta">
+                    <a href="#" class="btn btn-primary btn-large">Join the Waitlist</a>
+                    <p class="cta-hint">The next cohort starts soon. Secure your spot.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer glass">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <div class="logo">
+                    <span class="logo-accent">&lt;</span>Code Mindset<span class="logo-accent">/&gt;</span>
+                </div>
+                <p>Building programming thinking, one mindset at a time.</p>
+            </div>
+            <div class="footer-links">
+                <div class="link-group">
+                    <h5>Platform</h5>
+                    <a href="#about">Philosophy</a>
+                    <a href="#roadmap">Roadmap</a>
+                    <a href="#books">Library</a>
+                </div>
+                <div class="link-group">
+                    <h5>Connect</h5>
+                    <a href="#">Facebook</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">GitHub</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p>&copy; 2026 Code Mindset. All rights reserved.</p>
+            <div class="footer-decor">
+                <code>01100011 01101101</code>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
